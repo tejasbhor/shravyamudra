@@ -1,4 +1,4 @@
-# Shravyamudra: Real-time Gesture to Text Translation
+# Shravyamudra: Text to ISL Gesture Translation
 
 ---
 
@@ -15,15 +15,15 @@
 
 ## ✨ Project Overview
 
-Shravyamudra is an innovative web application designed to bridge communication gaps by providing **real-time gesture-to-text translation**. Leveraging a powerful combination of a Django REST Framework backend and a React frontend, Shravyamudra empowers users to translate gestures into written text, making communication more accessible and intuitive.
+Shravyamudra is an innovative web application designed to bridge communication gaps by providing **real-time text-to-ISL gesture translation**. Leveraging a powerful combination of a Django REST Framework backend and a React frontend, Shravyamudra empowers users to translate written text into visual ISL gestures, making communication more accessible and intuitive for the deaf community.
 
-Beyond real-time translation, the platform includes interactive **learning modules** to help users understand and practice various gestures, fostering a deeper understanding of sign language.
+Beyond real-time translation, the platform includes interactive **learning modules** to help users understand and practice various ISL gestures, fostering a deeper understanding of Indian Sign Language.
 
 **Shravyamudra** represents a significant advancement in assistive technology, specifically designed to bridge communication barriers between English/Hindi speakers and users of Indian Sign Language (ISL). As a **capstone project for university**, Shravyamudra has evolved into a sophisticated platform aimed at empowering the deaf community through seamless and intuitive communication.
 
 This innovative web application accurately converts written text into ISL gestures, leveraging a modular, full-stack architecture that incorporates modern technologies. Our primary objective is to enhance accessibility and communication for the ISL community by providing:
 
-* **Real-time Gesture Translation:** A powerful system for converting text into visual ISL gestures.
+* **Real-time Text-to-Gesture Translation:** A powerful system for converting text into visual ISL gestures.
 * **User-Friendly Interface:** Designed for ease of use and compatibility across various devices.
 * **Comprehensive Learning Platform:** Structured ISL lessons with progress tracking to foster deeper understanding and practice.
 
@@ -177,8 +177,8 @@ Once both the backend and frontend servers are successfully running:
 
 1.  Open your preferred web browser and navigate to `http://localhost:5173` (or the port indicated by Vite).
 2.  **Register** for a new user account or **Log In** if you already have credentials.
-3.  Explore the **gesture translation features** to see real-time translation in action.
-4.  Dive into the **learning modules** to enhance your understanding of various gestures.
+3.  Explore the **text-to-gesture translation features** to see real-time translation in action.
+4.  Dive into the **learning modules** to enhance your understanding of various ISL gestures.
 5.  Access the **Django Admin interface** at `http://localhost:8000/admin/` using the superuser credentials you created to manage data and users.
 
 ---
@@ -193,7 +193,7 @@ The Shravyamudra backend API is powered by Django REST Framework and comes with 
 Key API endpoint categories you'll find include:
 
 * `/auth/`: User Authentication (Registration, Login, Profile Management)
-* `/translation/`: Gesture Translation & History Management
+* `/translation/`: Text-to-Gesture Translation & History Management
 * `/learn/`: Learning Modules & Progress Tracking
 
 Refer to the interactive documentation for precise endpoint specifications, request/response schemas, and testing capabilities.
@@ -290,9 +290,9 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 
 Have questions, need support, or want to connect?
 
-* **Project Repository:** [https://github.com/tejasbhor/shravyamudra](https://github.com/tejasbhor/shravyamudra) 
+* **Project Repository:** [https://github.com/tejasbhor/shravyamudra](https://github.com/tejasbhor/shravyamudra)
 * **Report an Issue:** [https://github.com/tejasbhor/shravyamudra/issues](https://github.com/tejasbhor/shravyamudra/issues)
-* **Request a Feature:** [https://github.com/tejasbhor/shravyamudra/issues/new?template=feature_request.md](https://github.com/tejasbhor/shravyamudra/issues/new?template=feature_request.md) 
+* **Request a Feature:** [https://github.com/tejasbhor/shravyamudra/issues/new?template=feature_request.md](https://github.com/tejasbhor/shravyamudra/issues/new?template=feature_request.md)
 
 ---
 
