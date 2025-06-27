@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ShravyaMudra | Welcome</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body { background: linear-gradient(120deg, #f8fafc 0%, #e0e7ff 100%); }
+        .logo { height: 64px; margin-bottom: 1em; }
+        .hero { margin-top: 5vh; }
+        .api-table th, .api-table td { font-size: 0.95rem; }
+    </style>
+</head>
+<body>
+<div class="container hero text-center">
+    <img src="https://img.icons8.com/ios-filled/100/4e54c8/handshake.png" class="logo" alt="ShravyaMudra logo"/>
+    <h1 class="display-4 fw-bold">Welcome to ShravyaMudra Backend</h1>
+    <p class="lead">Empowering Indian Sign Language Learning &amp; Translation 🚀</p>
+    <div class="my-4">
+        <a href="/admin/" class="btn btn-primary btn-lg mx-2">Admin Panel</a>
+        <a href="/api/auth/login/" class="btn btn-outline-secondary btn-lg mx-2">API Login</a>
+        <a href="/api/learn/categories/" class="btn btn-outline-info btn-lg mx-2">Categories API</a>
+    </div>
+    <div class="card shadow-sm mt-4 mx-auto" style="max-width: 600px;">
+        <div class="card-body">
+            <h5 class="card-title">Quick API Endpoints</h5>
+            <table class="table table-bordered api-table mt-3">
+                <thead class="table-light">
+                <tr><th>Method</th><th>Endpoint</th><th>Description</th></tr>
+                </thead>
+                <tbody>
+                <tr><td>POST</td><td>/api/auth/register/</td><td>Register user</td></tr>
+                <tr><td>POST</td><td>/api/auth/login/</td><td>Login (JWT)</td></tr>
+                <tr><td>GET</td><td>/api/auth/me/</td><td>User profile</td></tr>
+                <tr><td>GET</td><td>/api/learn/categories/</td><td>List categories</td></tr>
+                <tr><td>GET</td><td>/api/learn/videos/</td><td>List videos</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <footer class="mt-5 text-muted">ShravyaMudra Backend &copy; 2025</footer>
+</div>
+</body>
+</html>
