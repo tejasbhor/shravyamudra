@@ -2,8 +2,7 @@
 
 ---
 
-![Shravyamudra Logo/Banner](https://via.placeholder.com/1200x400/007bff/ffffff?text=Shravyamudra+Banner)
-*Replace this with an actual project banner/logo if available.*
+![Shravyamudra Logo](logo.png)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
@@ -62,7 +61,7 @@ Before you begin, ensure you have the following software installed on your syste
 1.  **Clone the Repository:**
     Start by cloning the Shravyamudra repository to your local machine:
     ```bash
-    git clone [https://github.com/yourusername/Shravyamudra.git](https://github.com/yourusername/Shravyamudra.git)
+    git clone [https://github.com/tejasbhor/shravyamudra.git](https://github.com/tejasbhor/shravyamudra.git)
     cd Shravyamudra
     ```
     *(**Remember to replace `yourusername` with the actual GitHub username or organization name for your repository!**)*
@@ -228,7 +227,7 @@ Here are some quick references and guidelines for development:
 
 ## 🤝 Contributing
 
-We welcome and highly appreciate contributions to Shravyamudra! Your efforts help make this project better for everyone. Here’s how you can contribute:
+We welcome and highly appreciate contributions to Shravyamudra! Your efforts help make this project better for everyone. Here's how you can contribute:
 
 1.  **Fork the Repository:** Create your own copy of the project on GitHub.
 2.  **Create a Feature Branch:** Choose a descriptive name for your branch:
@@ -291,9 +290,9 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 
 Have questions, need support, or want to connect?
 
-* **Project Repository:** [https://github.com/yourusername/Shravyamudra](https://github.com/yourusername/Shravyamudra) *(**Don't forget to update `yourusername`!**)*
-* **Report an Issue:** [https://github.com/yourusername/Shravyamudra/issues](https://github.com/yourusername/Shravyamudra/issues)
-* **Request a Feature:** [https://github.com/yourusername/Shravyamudra/issues/new?template=feature_request.md](https://github.com/yourusername/Shravyamudra/issues/new?template=feature_request.md) *(Assumes you have issue templates set up on GitHub.)*
+* **Project Repository:** [https://github.com/tejasbhor/shravyamudra](https://github.com/tejasbhor/shravyamudra) 
+* **Report an Issue:** [https://github.com/tejasbhor/shravyamudra/issues](https://github.com/tejasbhor/shravyamudra/issues)
+* **Request a Feature:** [https://github.com/tejasbhor/shravyamudra/issues/new?template=feature_request.md](https://github.com/tejasbhor/shravyamudra/issues/new?template=feature_request.md) 
 
 ---
 
