@@ -29,31 +29,24 @@ class CustomTokenObtainPairSerializer(TokenObtainPairSerializer):
         User = get_user_model()
         user = None
 
-        print(f"Login attempt: {username_or_email}")
-
         try:
             user = User.objects.get(username=username_or_email)
-            print("Found by username")
         except User.DoesNotExist:
             try:
                 user = User.objects.get(email=username_or_email)
-                print("Found by email")
             except User.DoesNotExist:
-                print("User not found")
                 pass
 
         if user:
-            print("User exists, checking password...")
+            # Check password before calling super() to avoid potential issues if super() does something else
             if user.check_password(password):
-                print("Password correct")
+                # We need to pass the username to super().validate() because it expects 'username' field
+                # if the user was found by email, we still pass the username.
                 data = super().validate({"username": user.username, "password": password})
                 return data
-            else:
-                print("Password incorrect")
-        else:
-            print("No user to check password for")
 
         from rest_framework import serializers
+        # Generic error message to prevent user enumeration
         raise serializers.ValidationError("No active account found with the given credentials")
 
 class CustomTokenObtainPairView(TokenObtainPairView):

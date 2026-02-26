@@ -8,7 +8,7 @@ import nltk # Natural Language Toolkit for sentence tokenization
 try:
     from nltk.tokenize import sent_tokenize
     nltk.data.find('tokenizers/punkt')
-except (LookupError, nltk.downloader.DownloadError):
+except (LookupError, AttributeError):
     print("NLTK 'punkt' tokenizer models not found or download needed.")
     print("Attempting to download 'punkt'...")
     try:
